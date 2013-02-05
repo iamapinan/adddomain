@@ -1,4 +1,6 @@
-addsite
+NewSite Script
+====================================================
+Auto domain generate domain for apache2
 ====================================================
 
   Copyright (C) 2013 Apinan Woratrakun All rights reserved.
@@ -28,24 +30,61 @@ addsite
  <VirtualHost *>
         ServerAdmin webmaster@example.com
         ServerName  www.example.com
-       ServerAlias example.com
+        ServerAlias example.com
 
-        # Indexes + Directory Root.
+        #Indexes + Directory Root.
         DirectoryIndex index.html
        DocumentRoot /home/www/www.example.com/htdocs/
 
-        # CGI Directory
+        #CGI Directory
         ScriptAlias /cgi-bin/ /home/www/www.example.com/cgi-bin/
         <Location /cgi-bin>
                 Options +ExecCGI
         </Location>
 
 
-        # Logfiles
+        #Logfiles
         ErrorLog  /home/www/www.example.com/logs/error.log
        CustomLog /home/www/www.example.com/logs/access.log combined
  </VirtualHost>
 
 Example of use
 ===========================
-> 
+> ./newsite.sh
+ Get help by email: iamapinan@gmail.com
+ Press Ctrl+C to terminate operation
+
+=======================================
+What user name to use as own:?
+admin
+
+Directory for site:?
+example.org
+
+=======================================
+System will create directory for example.org
+=======================================
+
+Press [ENTER] to continue...
+Creating directory...
+Put new index.html file to home directory
+
+Successfully...
+
+========================================
+Press [ENTER] to continue...
+
+Adding domain to apache
+Enabling site example.org.conf.
+To activate the new configuration, you need to run:
+  service apache2 reload
+ * Restarting web server apache2                                                 [ OK ]
+
+========================================================
+Your domain directory is /home/admin/www/example.org/public_html/
+Already to add your domain to apache web server
+You can open web browser and type http://example.org to test it...
+========================================================
+
+Press [ENTER] to continue...
+
