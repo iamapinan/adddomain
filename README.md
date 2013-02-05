@@ -26,7 +26,7 @@ Auto domain generate domain for apache2
 
  Example.com (/etc/apache2/sites-available/www.example.com)
  This is virtual host example code.
-
+<code>
  <VirtualHost *>
         ServerAdmin webmaster@example.com
         ServerName  www.example.com
@@ -47,9 +47,10 @@ Auto domain generate domain for apache2
         ErrorLog  /home/www/www.example.com/logs/error.log
        CustomLog /home/www/www.example.com/logs/access.log combined
  </VirtualHost>
-
+</code>
 Example of use
 ===========================
+<code>
 > ./newsite.sh
  Get help by email: iamapinan@gmail.com
  Press Ctrl+C to terminate operation
@@ -88,3 +89,4 @@ You can open web browser and type http://example.org to test it...
 
 Press [ENTER] to continue...
 
+</code>
