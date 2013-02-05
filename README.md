@@ -56,6 +56,7 @@ Example of use
 ===========================
 
  root:>./newsite.sh
+ 
  Get help by email: iamapinan@gmail.com
 
  Press Ctrl+C to terminate operation
