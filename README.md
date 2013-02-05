@@ -1,6 +1,8 @@
 NewSite Script
 ====================================================
+
 Auto domain generate domain for apache2
+
 ====================================================
 
   Copyright (C) 2013 Apinan Woratrakun All rights reserved.
