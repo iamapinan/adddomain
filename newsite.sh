@@ -27,7 +27,7 @@
 # <VirtualHost *>
 #        ServerAdmin webmaster@example.com
 #        ServerName  www.example.com
-#       ServerAlias example.com
+#        ServerAlias example.com
 #
 #        # Indexes + Directory Root.
 #        DirectoryIndex index.html
@@ -85,7 +85,7 @@ echo -e "Creating directory..."
 
 if [ ! -d /home/$owner ]; then
     mkdir -p /home/$owner
-	mkdir -p /home/$owner/www
+    mkdir -p /home/$owner/www
 fi
 
 if [ ! -d /home/$owner/www/$domain ]; then
