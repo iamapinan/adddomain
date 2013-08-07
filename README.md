@@ -8,7 +8,7 @@ Auto domain generate domain for apache2
 ====================================================
 
   Copyright (C) 2013 Apinan Woratrakun All rights reserved.
-
+  
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
   the Free Software Foundation; either version 3 of the License, or
@@ -20,7 +20,7 @@ Auto domain generate domain for apache2
   GNU General Public License for more details.
 
  Script create by Apinan Woratrakun
- Follow me on http://tutorcenter.org/profile/iamapinan, http://www.facebook.com/mrapinan
+ Follow me on http://plus.noeplaza.org/profile/iamapinan, http://www.facebook.com/mrapinan
 
  This script support on Debian server such as Ubuntu, debian, Linux Mint Debian Edition, and more.
  Create for a apache web server you must have to install apache2 on your server
@@ -30,8 +30,8 @@ Auto domain generate domain for apache2
 
  Example.com (/etc/apache2/sites-available/www.example.com)
  This is virtual host example code.
-
-# <VirtualHost *>
+```
+<VirtualHost *>
 
         ServerAdmin webmaster@example.com
         ServerName  www.example.com
@@ -53,10 +53,10 @@ Auto domain generate domain for apache2
         CustomLog /home/www/www.example.com/logs/access.log combined
 
 </VirtualHost>
-
+```
 Example of use
 ===========================
-
+```
  root:>./newsite.sh
  
  Get help by email: iamapinan@gmail.com
@@ -113,3 +113,4 @@ You can open web browser and type http://example.org to test it...
 
 Press [ENTER] to continue...
 
+```
