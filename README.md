@@ -1,5 +1,3 @@
-[![Build Status](https://secure.travis-ci.org/bshaffer/oauth2-server-php.png)](http://www.noeplaza.com)
-
 NewSite Script
 ====================================================
 
