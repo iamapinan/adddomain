@@ -102,7 +102,7 @@ mkdir -p /home/$owner/www/$domain/logs
 
 echo -e "Put new index.html file to home directory"
 echo "<h2 align=center>Welcome to $domain </h2>" > /home/$owner/www/$domain/public_html/$indexfile
-echo "<p align=center>Virtual domain default page by <a href='http://tutorcenter.org/profile/iamapinan'>Apinan woratrakun</a></p>" >> /home/$owner/www/$domain/public_html/$indexfile
+echo "<p align=center>Virtual domain default page by <a href='https://eesclub.com/@iamapinan'>Apinan woratrakun</a></p>" >> /home/$owner/www/$domain/public_html/$indexfile
 echo ""
 echo -e "Successfully..."
 echo ""
