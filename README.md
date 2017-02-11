@@ -1,4 +1,4 @@
-NewSite Script
+NewSite Script ![alt text](https://travis-ci.org/iamapinan/adddomain.svg?branch=master "Build Status")
 ====================================================
 
 Auto domain generate domain for apache2
