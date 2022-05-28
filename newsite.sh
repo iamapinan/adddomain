@@ -82,7 +82,6 @@ echo -e "Creating directory..."
 #
 # Create directory for new domain
 #
-
 if [ ! -d /home/$owner ]; then
     mkdir -p /home/$owner
     mkdir -p /home/$owner/www
